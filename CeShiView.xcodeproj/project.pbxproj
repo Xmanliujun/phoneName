@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A0355F17992C400091F6CA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A0355D17992C400091F6CA /* AddressBook.framework */; };
+		04A0356017992C400091F6CA /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A0355E17992C400091F6CA /* AddressBookUI.framework */; };
+		04A0356317992F260091F6CA /* PhoneName.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0356217992F260091F6CA /* PhoneName.m */; };
 		04FCF5FF17953D4600595E1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FCF5FE17953D4600595E1B /* UIKit.framework */; };
 		04FCF60117953D4600595E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FCF60017953D4600595E1B /* Foundation.framework */; };
 		04FCF60317953D4600595E1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FCF60217953D4600595E1B /* CoreGraphics.framework */; };
@@ -16,9 +19,14 @@
 		04FCF61117953D4600595E1B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FCF61017953D4600595E1B /* Default.png */; };
 		04FCF61317953D4600595E1B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FCF61217953D4600595E1B /* Default@2x.png */; };
 		04FCF61517953D4600595E1B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FCF61417953D4600595E1B /* Default-568h@2x.png */; };
+		04FCF61D17953D5F00595E1B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FCF61C17953D5F00595E1B /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A0355D17992C400091F6CA /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		04A0355E17992C400091F6CA /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		04A0356117992F260091F6CA /* PhoneName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneName.h; sourceTree = "<group>"; };
+		04A0356217992F260091F6CA /* PhoneName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneName.m; sourceTree = "<group>"; };
 		04FCF5FB17953D4600595E1B /* CeShiView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CeShiView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FCF5FE17953D4600595E1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04FCF60017953D4600595E1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +40,8 @@
 		04FCF61017953D4600595E1B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		04FCF61217953D4600595E1B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		04FCF61417953D4600595E1B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		04FCF61B17953D5F00595E1B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		04FCF61C17953D5F00595E1B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A0355F17992C400091F6CA /* AddressBook.framework in Frameworks */,
+				04A0356017992C400091F6CA /* AddressBookUI.framework in Frameworks */,
 				04FCF5FF17953D4600595E1B /* UIKit.framework in Frameworks */,
 				04FCF60117953D4600595E1B /* Foundation.framework in Frameworks */,
 				04FCF60317953D4600595E1B /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +63,8 @@
 		04FCF5F217953D4600595E1B = {
 			isa = PBXGroup;
 			children = (
+				04A0355D17992C400091F6CA /* AddressBook.framework */,
+				04A0355E17992C400091F6CA /* AddressBookUI.framework */,
 				04FCF60417953D4600595E1B /* CeShiView */,
 				04FCF5FD17953D4600595E1B /* Frameworks */,
 				04FCF5FC17953D4600595E1B /* Products */,
@@ -81,6 +95,10 @@
 				04FCF60D17953D4600595E1B /* AppDelegate.h */,
 				04FCF60E17953D4600595E1B /* AppDelegate.m */,
 				04FCF60517953D4600595E1B /* Supporting Files */,
+				04FCF61B17953D5F00595E1B /* RootViewController.h */,
+				04FCF61C17953D5F00595E1B /* RootViewController.m */,
+				04A0356117992F260091F6CA /* PhoneName.h */,
+				04A0356217992F260091F6CA /* PhoneName.m */,
 			);
 			path = CeShiView;
 			sourceTree = "<group>";
@@ -166,6 +184,8 @@
 			files = (
 				04FCF60B17953D4600595E1B /* main.m in Sources */,
 				04FCF60F17953D4600595E1B /* AppDelegate.m in Sources */,
+				04FCF61D17953D5F00595E1B /* RootViewController.m in Sources */,
+				04A0356317992F260091F6CA /* PhoneName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +264,13 @@
 		04FCF61917953D4600595E1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kong Long (QKYCT7AM8M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CeShiView/CeShiView-Prefix.pch";
 				INFOPLIST_FILE = "CeShiView/CeShiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "948D12DB-F863-4B1E-9029-D7168D3BC980";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -255,10 +278,13 @@
 		04FCF61A17953D4600595E1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kong Long (QKYCT7AM8M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CeShiView/CeShiView-Prefix.pch";
 				INFOPLIST_FILE = "CeShiView/CeShiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "948D12DB-F863-4B1E-9029-D7168D3BC980";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,6 +308,7 @@
 				04FCF61A17953D4600595E1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
